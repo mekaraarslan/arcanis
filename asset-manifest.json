@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/arcanis/static/css/main.6500d70f.css",
+    "main.js": "/arcanis/static/js/main.0d726ece.js",
+    "static/media/gezegenler.png": "/arcanis/static/media/gezegenler.5d9658a30a5b14080804.png",
+    "index.html": "/arcanis/index.html",
+    "main.6500d70f.css.map": "/arcanis/static/css/main.6500d70f.css.map",
+    "main.0d726ece.js.map": "/arcanis/static/js/main.0d726ece.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6500d70f.css",
+    "static/js/main.0d726ece.js"
+  ]
+}
