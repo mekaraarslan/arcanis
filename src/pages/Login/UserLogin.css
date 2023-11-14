@@ -1,0 +1,102 @@
+/* LOGIN CONTENT */
+
+.authLoginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user-register-btn>a {
+    text-decoration: none;
+    color: #73228B;
+}
+
+#user-login>p,
+#user-login>h1 {
+    margin-top: 5rem;
+    font-size: 3rem;
+    color: #73228B;
+}
+
+.forgetPassword {
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+    width: 140%;
+}
+
+.forgetPasswordColor {
+    color: white !important;
+}
+
+#errorMessageLogin {
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+    background-color: #7465F1;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+.authLoginContainer .loginPageUsernameInput,
+.authLoginContainer .loginPagePasswordInput {
+    background-color: transparent !important;
+    width: 40rem !important;
+    height: 3.5rem !important;
+    margin: 1rem;
+    border-radius: 0;
+    border-bottom: 0.1rem solid white !important;
+    border: none;
+}
+
+.loginPageUsernameInput .ant-input,
+.loginPagePasswordInput .ant-input {
+    background-color: transparent !important;
+}
+
+.authModalRegisterButton {
+    background-color: transparent !important;
+    border: 0.1rem solid #7465F1;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    width: 90% !important;
+    height: 4rem;
+    margin: 1rem;
+    color: white;
+}
+
+.authModalRegisterButton:hover {
+    border-color: #7465F1 !important;
+}
+
+.authLoginTitle>h1 {
+    margin: 4rem;
+    font-size: 3.5rem;
+}
+
+.ant-modal-close-x {
+    color: white;
+}
+
+/* LOGIN CONTENT */
+
+
+@media screen and (min-width: 700px) {
+
+    .authLoginContainer .loginPageUsernameInput,
+    .authLoginContainer .loginPagePasswordInput {
+        width: 50rem !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .authLoginContainer .loginPageUsernameInput,
+    .authLoginContainer .loginPagePasswordInput {
+        width: 50rem !important;
+    }
+}

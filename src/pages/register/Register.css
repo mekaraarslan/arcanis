@@ -1,0 +1,73 @@
+.authRegisterContainer {
+    height: 53rem;
+    overflow: auto !important;
+}
+
+.userRegisterTitle > h1 {
+    margin: 1rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.accountRegister > a{
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.errorMessageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+#errorMessageRegister {
+    width: 50rem;
+    background-color: #7465F1;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+
+
+@media screen and (min-width: 700px) {
+
+    .accountRegister > a {
+        font-size: 1.5rem;
+    }
+
+    .userRegisterTitle > h1 {
+        margin: 1rem;
+        font-size: 3rem;
+        color: white;
+    }
+
+    .accountRegister > a{
+        color: white;
+        font-size: 2rem;
+        border: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .accountRegister > a {
+        font-size: 1.7rem;
+    }
+
+    .userRegisterTitle > h1 {
+        margin-bottom: 0;
+    }
+
+    .userRegisterTitle > h1 {
+        margin: 1rem;
+        font-size: 3rem;
+        color: white;
+    }
+
+    .accountRegister > a{
+        color: white;
+        font-size: 2rem;
+        border: none;
+    }
+}

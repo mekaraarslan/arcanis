@@ -1,0 +1,164 @@
+.planetCardContainer {
+    min-height: 10rem;
+    height: 100%;
+    max-width: 35rem;
+    width: 100%;
+
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    border-radius: 0.5rem;
+    margin: 1.5rem;
+
+    background-image: linear-gradient(90deg, #161D30, black);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.planetComment {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background-position: center;
+
+    margin: 1rem;
+}
+
+.planetComment > h2 {
+    display: flex;
+    font-size: 1rem;
+}
+
+.planetDescription {
+    margin: 2rem 2rem  2rem 1rem;
+    width: 100%;
+    max-width: 10rem;
+    max-height: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1rem;
+}
+
+.planetImg > img {
+    max-height: 10rem;
+    height: 100%;
+    max-width: 15rem;
+    width: 100%;
+
+    float: right;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+
+    border-left: 1px solid #7465F2;
+}
+
+.planetDetailsBtn > button {
+    float: left;
+    display: inline-block;
+    height: 2rem;
+    width: 10rem;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 6rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background-color: #7465F2;
+    cursor: pointer;
+    outline: none;
+    margin-top: 2rem;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.planetDetailsBtn > button:hover {
+    background-color: #161D30;
+    transition: 0.1s all ease-in;
+}
+
+.planetCardSpinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 700px) {
+    .planetCardContainer {
+        min-height: 20rem;
+        height: 100%;
+        min-width: 65rem;
+        width: 100%;
+        margin: 1.5rem;
+    }
+    
+    .planetComment {
+        margin: 1rem;
+    }
+    
+    .planetComment > h2 {
+        font-size: 2.5rem;
+    }
+    
+    .planetDescription {
+        margin: 2rem 2rem  0 0;
+        width: 100%;
+        max-width: 35rem;
+        max-height: 3.6rem;
+    }
+    
+    .planetImg > img {
+        max-height: 20rem;
+        height: 100%;
+        max-width: 25rem;
+        width: 100%;
+    }
+    
+    .planetDetailsBtn > button {
+        height: 4rem;
+        width: 17.5rem;
+        border-radius: 6rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        letter-spacing: 0.2em;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .planetCardContainer {
+        min-height: 20rem;
+        height: 100%;
+        min-width: 60rem;
+        width: 100%;
+    }
+    
+    .planetComment > h2 {
+        font-size: 2.5rem;
+    }
+    
+    .planetDescription {
+        margin: 2rem 2rem  0 0;
+        width: 100%;
+        max-width: 35rem;
+        max-height: 3.6rem;
+    }
+    
+    .planetImg > img {
+        max-height: 20rem;
+        height: 100%;
+        max-width: 65rem;
+        width: 100%;
+    }
+    
+    .planetDetailsBtn > button {
+        height: 4rem;
+        width: 17.5rem;
+        border-radius: 6rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        letter-spacing: 0.2em;
+        margin-top: 2rem;
+    }
+}

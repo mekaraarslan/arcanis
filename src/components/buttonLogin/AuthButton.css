@@ -1,0 +1,47 @@
+.authBtn {
+    padding-top: 2.5rem;
+}
+
+.authBtn>button {
+    background-color: #7465F1 !important;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
+    width: 40rem !important;
+    height: 4rem;
+    margin: 1rem;
+    color: white;
+}
+
+.authBtn>button:hover {
+    background-color: #161D30 !important;
+}
+
+@media screen and (min-width: 700px) {
+    .authBtn {
+        padding-top: 1.5rem;
+    }
+
+    .authBtn>button {
+        font-size: 1.5rem;
+        width: 50rem !important;
+        height: 4rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .authBtn {
+        padding-top: 1.5rem;
+    }
+
+    .authBtn>button {
+        font-size: 2.5rem;
+        width: 50rem !important;
+        height: 4rem;
+        margin-bottom: 1rem;
+    }
+}

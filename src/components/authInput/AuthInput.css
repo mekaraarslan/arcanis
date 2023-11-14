@@ -1,0 +1,36 @@
+.authRegisterContainer .ınputRegister,
+.authRegisterContainer .ınputRegisterPassword {
+    background-color: transparent !important;
+    width: 40rem !important;
+    height: 3rem !important;
+    margin: 0.7rem;
+    border-radius: 0;
+    border-bottom: 0.1rem solid white !important;
+    border: none;
+}
+
+.ınputRegister .ant-input,
+.ınputRegisterPassword .ant-input {
+    background-color: transparent !important;
+}
+
+
+@media screen and (min-width: 700px) {
+
+    .authRegisterContainer .ınputRegister,
+    .authRegisterContainer .ınputRegisterPassword {
+        width: 50rem !important;
+        height: 3.5rem !important;
+        margin: 1rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .authRegisterContainer .ınputRegister,
+    .authRegisterContainer .ınputRegisterPassword {
+        width: 50rem !important;
+        height: 3.5rem !important;
+        margin: 1rem;
+    }
+}

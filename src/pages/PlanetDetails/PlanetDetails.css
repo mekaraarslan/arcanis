@@ -1,0 +1,102 @@
+.planetBodyColor {
+    background-color: #161D30;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.planetBodyColor::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #161D30;
+    background-size: cover;
+    z-index: -1;
+}
+
+.planetDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 79rem;
+    height: 100%;
+    width: 95.5%;
+    margin-left: 2.3%;
+    border-radius: 0.5rem;
+    background-color: #273046;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.planetDetailsBody {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planetImg{
+    width: 100% !important;
+    height: 300px !important;
+    object-fit: cover !important;
+    border-radius: 5px !important;
+}
+
+.planetDetails > p {
+    color: white;
+    text-align: center;
+
+    margin-right: 10px;
+    margin-left: 10px;
+
+    font-size: 1.2rem;
+}
+
+.planetDetails > h1 {
+    color: white;
+    text-align: center;
+
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+
+.planetDetailsIcon {
+    font-size: 25px !important;
+    color: white;
+    position: absolute;
+    left: 3% !important;
+    top: 6% !important;
+    padding: 3px !important;
+
+    border-radius: 50% !important;
+    background-color: #161D30;
+}
+
+.planetDetailsIcon:hover {
+    background-color: white;
+    color: #161D30;
+
+    transition: 0.2s all ease-in;
+}
+
+.planetSpinner {
+    display: flex;
+    align-items: center !important;
+    margin-top: 20% ;
+    font-size: 50px;
+}
+
+@media screen and (min-width: 700px) {
+    .planetDetails > p {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .planetDetails > p {
+        font-size: 1.8rem;
+    }
+}

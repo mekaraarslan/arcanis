@@ -1,0 +1,283 @@
+/* Colors */
+.bg-1 {
+    background-color: #313759;
+}
+
+.bg-2 {
+    background-color: #244359;
+}
+
+.bg-3 {
+    background-color: #3F3347;
+}
+
+.bg-4 {
+    background-color: #28414A;
+}
+
+/* svgColors */
+
+.svgColor-1 {
+    color: #7366F0;
+}
+
+.svgColor-2 {
+    color: #00CEE7;
+}
+
+.svgColor-3 {
+    color: #EA5354;
+}
+
+.svgColor-4 {
+    color: #29C76F;
+}
+
+/* svgColors */
+
+/* Colors */
+
+.mainPageContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPageBody {
+    width: 100%;
+    height: 30rem !important;
+    margin-top: 3rem;
+    background-color: #273046;
+    border-radius: 0.5rem;
+
+    overflow-y: scroll;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.mainPageBoxContainer {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}
+
+.mainPageBox1,
+.mainPageBox2,
+.mainPageBox3 {
+    width: 100%;
+    margin-top: 1rem;
+    background-color: #273046;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.mainPageBox2 {
+    margin-top: 1rem;
+}
+
+.mainPageTitle,
+.mainPageBoxTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+.mainPageBoxUsersInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+.mainPageBoxUsersInfoSpinner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainPageBoxUsersInfoSpinner>p {
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.ant-progress {
+    color: white !important;
+}
+
+.mainPageBodyContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainPageBodyContentBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem !important;
+    margin-left: 5rem;
+}
+
+.mainPageBodyContentSvg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mainPageBodyContentSvg>svg {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.mainPageBodyContentTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    cursor: pointer;
+
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+.mainPageBodyContentTitle>h1 {
+    margin-top: 2rem;
+}
+
+.mainPageBodyContentTitle>p {
+    padding-top: 0;
+}
+
+.mainPageExpeditionsFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-top: 0.1rem solid #51596A;
+}
+
+.mainPageExpeditionsCompleted {
+    border-right: 0.1rem solid #51596A;
+    width: 50%;
+}
+
+.mainPageExpeditionsProgress {
+    width: 50%;
+}
+
+.mainPageExpeditionsBody {
+    margin-top: 15% !important;
+    margin-bottom: 15% !important;
+}
+
+.mainPageExpeditionsCompleted>p,
+.mainPageExpeditionsProgress>p {
+    padding-bottom: 0;
+    font-size: 1rem;
+}
+
+.mainPageExpeditionsCompleted>h1,
+.mainPageExpeditionsProgress>h1 {
+    margin-bottom: 1.3rem;
+    font-size: 2rem;
+}
+
+.ant-progress-text {
+    color: white !important;
+}
+
+.mainPageBoxInfoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainPageBoxUsersInfo > h5,
+.mainPageBoxUsersInfoSpinner {
+    font-size: 1.4rem !important;
+    margin-top: 4% !important;
+    box-sizing: border-box !important;
+}
+
+.mainPageBoxUsersInfoSpinner > p {
+    font-size: 1.3rem !important;
+}
+
+.mainPageSvg {
+    color: white !important;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    font-size: 1.8rem;
+}
+
+.mainPageSvg:hover {
+    opacity: 0.5;
+}
+
+
+@media screen and (min-width: 700px) {
+    .mainPageBoxContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-direction: column;
+    }
+
+    .mainPageBodyContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .mainPageContainer {
+        display: flex;
+    }
+
+    .mainPageBody {
+        width: 100%;
+        margin-top: 3rem;
+        background-color: #273046;
+        border-radius: 0.5rem;
+        height: 40vh !important;
+    }
+
+    .mainPageBox1,
+    .mainPageBox2,
+    .mainPageBox3 {
+        height: 100% !important;
+    }
+
+    .mainPageBoxContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .mainPageBox2 {
+        margin: 1rem;
+    }
+
+    .mainPageBodyContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+        gap: 20px;
+    }
+}

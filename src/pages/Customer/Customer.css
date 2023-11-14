@@ -1,0 +1,80 @@
+.borderRL {
+    border-right: 0.1rem solid white !important;
+    border-left: 0.1rem solid white !important;
+}
+
+
+/** first-color =  #273046  **/
+/** second-color =  #161D30  **/
+/** third-color =  #5D5E9C  **/
+/** fourth-color =  #858B9B  **/
+
+#customerPageContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #161D30;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#customerPageContainer::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #161D30;
+    background-size: cover;
+    z-index: -1;
+}
+
+/* HEADER */
+
+.headerCustomer {
+    width: 100% !important;
+    background-position: center;
+    background-color: #273046;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: fixed !important;
+    z-index: 2 !important;
+}
+
+.headerCustomerInfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+}
+
+.headerTitleStyle {
+    color: #7465F2;
+    font-size: 3rem;
+    margin-right: 30%;
+    cursor: pointer;
+}
+
+.headerButtonStyle {
+    background-color: transparent;
+    color: white;
+    padding: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.headerButtonContainer > a:hover {
+    color: #7465F2;
+}
+
+/* HEADER */
+
+
+@media screen and (min-width: 700px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}

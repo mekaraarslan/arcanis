@@ -1,0 +1,23 @@
+/* AUTH MODAL */
+
+.customerLoginModal {
+    width: 55rem !important;
+    height: 45rem !important;
+}
+
+.customerLoginModal .ant-modal-title {
+    background-color: #273046 !important;
+    color: #fff;
+}
+
+.customerLoginModal .ant-modal-content {
+    background-color: #273046 !important;
+    height: 130% !important;
+}
+
+.customerLoginModal .ant-modal-footer {
+    background-color: #273046 !important;
+    color: #fff;
+}
+
+/* AUTH MODAL */

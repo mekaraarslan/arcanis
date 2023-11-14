@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 10px;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    height: 100% !important;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    padding: 1.6rem 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}

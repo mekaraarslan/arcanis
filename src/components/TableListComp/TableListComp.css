@@ -1,0 +1,267 @@
+/* LIST GROUP */
+.listContainer {
+    width: 100%;
+    min-height: 50vh !important;
+    background-color: #273046;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.tableListBody {
+    width: 100%;
+}
+
+.tableListBody .ant-table-thead .ant-table-cell {
+    font-size: 0.8rem !important;
+}
+
+.tableListBody .ant-table-tbody .ant-table-cell {
+    font-size: 0.8rem !important;
+}
+
+.ant-table-cell {
+    color: white !important;
+    border-color: #858B9B !important;
+}
+
+.ant-table .ant-table-container .ant-table-content>table>thead.ant-table-thead .ant-table-cell {
+    background-color: #273046 !important;
+    border-top: 0.1ren solid #273046;
+    border-radius: 0;
+    padding: 1.5rem;
+}
+
+.ant-table-container {
+    background-color: #273046 !important;
+}
+
+td {
+    padding: 1rem !important;
+}
+
+.ant-table-cell-row-hover {
+    background-color: #858B9B !important;
+    color: whitesmoke !important;
+}
+
+.ant-table-tbody>tr>td {
+    color: #858B9B;
+}
+
+.ant-table-cell>a {
+    color: #7465F2 !important;
+}
+
+.ant-table-cell-row-hover>a {
+    color: white !important;
+}
+
+.ant-space-item>a {
+    color: white;
+}
+
+.ant-table-column-sort {
+    background-color: #273046;
+    color: black;
+}
+
+.ant-table-cell {
+    background-color: #273046 !important;
+}
+
+.ant-empty-description,
+.ant-select-arrow {
+    color: white !important;
+}
+
+.table-edit-btn {
+    display: flex;
+}
+
+.table-row:hover,
+.ant-table-thead:hover {
+    cursor: pointer;
+}
+
+/* LIST GROUP */
+
+/* PAGINATION */
+.ant-pagination {
+    color: white !important;
+    font-size: 1.2rem;
+    margin-top: 1%;
+    margin-right: 3%;
+}
+
+.ant-pagination-prev>button {
+    color: white !important;
+}
+
+.ant-pagination-next>button {
+    color: white !important;
+}
+
+.ant-pagination-item>a {
+    color: white !important;
+}
+
+.ant-pagination-item-active {
+    background-color: #7465F2 !important;
+    border-color: white !important;
+    border-radius: 50% !important;
+}
+
+.ant-pagination-options {
+    margin-right: 1rem;
+}
+
+.ant-pagination-item-ellipsis,
+.anticon-double-right {
+    color: white !important;
+}
+
+/* PAGINATION */
+
+/* INPUT */
+.inputListGroup {
+    display: flex;
+    float: right;
+    align-items: center;
+    margin-right: 0.5rem;
+    margin: 0.9%;
+}
+
+.inputListGroup > span {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    color: white;
+}
+
+.inputListGroup > .ant-input {
+    height: 3rem;
+    width: 20rem;
+    background-color: transparent;
+    border-color: #858B9B;
+}
+
+.searchInput::placeholder {
+    color: white;
+}
+
+/* INPUT */
+
+/* ADD BUTTON */
+.addBtn {
+    display: flex;
+    float: right;
+    margin: 0.9%;
+    background-color: #7465F2;
+    color: white;
+    height: 3rem;
+    width: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.addBtn:hover {
+    background-color: #161D30 !important;
+    color: white !important;
+}
+
+/* ADD BUTTON */
+
+.tableListHead {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #273046;
+    height: 5rem;
+}
+
+.ant-table-thead {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5rem;
+    z-index: 1;
+    background-color: #273046;
+}
+
+.ant-pagination {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    background-color: #273046;
+    padding: 1rem;
+}
+
+
+/* SEARXH BAR */
+
+.ant-picker-input>input::placeholder,
+.ant-picker-suffix,
+.ant-picker-range-separator>span {
+    color: white !important;
+}
+
+.ant-select:not(.ant-select-costumize-input) .ant-select-selector {
+    background-color: transparent !important;
+    border-color: #858B9B;
+    color: white;
+    width: 25rem !important;
+}
+
+#range-picker-userlist::placeholder {
+    color: white;
+}
+
+.SelectRolePosition {
+    margin: 1rem;
+}
+
+.ant-picker {
+    background-color: transparent !important;
+    border-color: #858B9B !important;
+    margin: 1rem;
+}
+
+.ant-picker {
+    width: 25rem !important;
+    margin: 0;
+}
+
+.ant-select-selector:hover {
+    border-color: #7465F2 !important;
+}
+
+.ant-select-focused .ant-select-selector {
+    border-color: #7465F2 !important;
+}
+
+
+@media screen and (min-width: 700px) {
+
+    .tableListBody .ant-table-thead .ant-table-cell {
+        font-size: 1.2rem !important;
+    }
+    
+    .tableListBody .ant-table-tbody .ant-table-cell {
+        font-size: 1rem !important;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .tableListBody .ant-table-thead .ant-table-cell {
+        font-size: 1.5rem !important;
+    }
+    
+    .tableListBody .ant-table-tbody .ant-table-cell {
+        font-size: 1.2rem !important;
+    }
+
+}

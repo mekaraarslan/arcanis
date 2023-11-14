@@ -1,0 +1,106 @@
+/* MODAL */
+.modalComponent .ant-modal-header {
+    background-color: #273046 !important;
+    color: white;
+    border-bottom: 1px solid white !important;
+}
+
+.modalComponent .ant-modal-header>.ant-modal-title {
+    color: white;
+}
+
+.modalComponent .ant-modal-content {
+    background-color: #273046 !important;
+}
+
+.modalComponent .ant-modal-body {
+    height: 85vh !important;
+    width: auto !important;
+}
+
+.modalComponent {
+    float: right !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    position: sticky !important;
+}
+
+.addModalErrorContainer {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    margin: 3rem;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #7465F2;
+    background-color: transparent;
+}
+
+/* MODAL TEXTAREA STYLE */
+.ant-input-affix-wrapper {
+    width: 220px !important;
+    height: 32px !important;
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.ant-input-suffix>span {
+    color: white !important;
+}
+
+.modal-usarname-style>input {
+    width: 22rem;
+}
+
+.ant-input::placeholder {
+    color: white !important;
+}
+
+/* MODAL TEXTAREA STYLE */
+/* MODAL */
+
+.modalistBody {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.modalistBody > .ant-input {
+    margin: 1rem;
+    width: 90%;
+    height: 3rem;
+    background-color: transparent;
+    border-color: #858B9B;
+}
+
+.modalistBody > .ant-input-password {
+    margin: 1rem !important;
+    width: 90% !important;
+    height: 3rem !important;
+    border-radius: 0.5rem !important;
+    background-color: transparent !important;
+    border-color: #858B9B !important;
+}
+
+.modalistBody > .ant-input-password > input {
+    background-color: transparent !important;
+}
+
+.modalComponent .ant-modal-close-x,
+.modalComponent .ant-select-arrow {
+    color: white !important;
+}
+
+.modalistBody > .ant-select {
+    width: 90%;
+    height: 3rem !important;
+    margin: 1rem;
+}
+
+.modalistBody> .ant-select > .ant-select-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    height: 3rem !important;
+}

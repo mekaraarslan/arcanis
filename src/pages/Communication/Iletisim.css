@@ -1,0 +1,16 @@
+.Iletisim-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    background-color: #273046;
+}
+
+.Iletisim-page-body {
+    flex: 1;
+}
+

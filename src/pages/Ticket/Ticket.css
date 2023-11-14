@@ -1,0 +1,447 @@
+.ticketPageContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.ticketPageBodyPosition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ticketPageBody {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 40rem;
+    height: 100%;
+    width: 100%;
+    margin-top: 10rem !important;
+    margin: 0 auto;
+    background-color: #273046;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../../public/images/gezegenler.png");
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* SEARCH */
+
+.ticketSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-height: 25rem !important;
+    height: 100%;
+    max-width: 30rem !important;
+    width: 100%;
+    margin: 3rem;
+
+    background-color: rgba(27, 30, 46, 0.9);
+    border-radius: 0.5rem !important;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.ticketBtnStyle>button {
+    display: inline-block;
+    height: 2.5rem;
+    width: 20rem;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 6rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #ffffff;
+    background-color: #7465F2;
+    cursor: pointer;
+    margin: 2rem;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.ticketBtnStyle>button:hover {
+    background-color: #161D30;
+    transition: 0.1s all ease-in;
+}
+
+.ticketSearch .ant-select {
+    border-bottom: 0.1rem solid #7465F2;
+    margin-top: 2rem !important;
+    width: 25rem;
+}
+
+.ticketSearch .ant-picker-range {
+    margin: 2rem;
+    width: 27rem !important;
+}
+
+.ticketSearch .ant-picker-input {
+    border-bottom: 0.1rem solid #7465F2;
+    margin-top: 1rem !important;
+}
+
+.ticketSearch .ant-picker-suffix>span {
+    margin-top: 3rem !important;
+}
+
+.ant-picker-input>input {
+    width: 50% !important;
+    color: white !important;
+}
+
+.ticketSearch .ant-picker-range-separator>span {
+    margin-top: 3rem !important;
+}
+
+/* SEARCH */
+
+/* DESCRİPTİON */
+
+.ticketDescription>h1 {
+    color: white !important;
+}
+
+.deskBoxContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin: 3rem;
+}
+
+.descBox {
+    height: 8rem !important;
+    width: 8rem !important;
+    color: white !important;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+    background-color: rgba(27, 30, 46, 0.8);
+    border-radius: 0.5rem !important;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.descBox>svg {
+    color: white;
+    font-size: 2rem !important;
+}
+
+.descBox>p {
+    font-size: 0.5rem !important;
+    text-align: center;
+}
+
+/* DESCRİPTİON */
+
+/* BODY CONTENT */
+.ticketPageBodyContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 32rem;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    background-color: #273046;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.ticketPageBodyContentInfoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    height: 30rem;
+    width: 90%;
+    cursor: pointer;
+    background-color: rgba(27, 30, 46, 0.9);
+    border-radius: 0.5rem;
+    margin: 2rem;
+}
+
+.ticketPageInfoIcon {
+    font-size: 8rem;
+}
+
+.ticketPageInfoDescription {
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+.ticketPageBodyTitle,
+.ticketPageBodyQuestionsTitle {
+    margin: 3rem;
+}
+
+/* BODY CONTENT */
+
+/* BODY QUESTİONS */
+
+.ticketPageBodyQuestions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 40rem;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    background-color: #273046;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.ticketPageBodyQuestionsBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: auto;
+    cursor: pointer;
+    background-color: rgba(27, 30, 46, 0.9);
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.ticketPageBodyQuestionsBoxSvg {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.ticketPageBodyQuestionsBoxAdditional {
+    display: none;
+}
+
+.ticketPageBodyQuestionsBoxAdditionalVisible {
+    display: block;
+    position: absolute !important;
+    margin-top: 4rem !important;
+    font-size: 1.2rem;
+}
+
+/* BODY QUESTİONS */
+
+/* FOOTER PROMO */
+
+.ticketPagePromoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10rem;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10rem;
+    margin-bottom: 0;
+    background-position: center;
+    border-top: 0.1rem solid #7465F2;
+}
+
+.ticketPagePromoContent {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticketPagePromoContent i {
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.ticketPagePromoContent h3 {
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* FOOTER PROMO */
+
+/* FOOTER CONTAİNER */
+
+.ticketPageFooterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: 30rem;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #273046;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.ticketPageFooterInfoBox {
+    display: flex;
+    width: 100%;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    margin: 2rem;
+}
+
+.ticketPageFooterInfoBox a {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    width: auto;
+    box-sizing: content-box;
+}
+
+.ticketPageFooterInfoBox ul {
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.ticketPageFooterInfoBox ul li {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.ticketPageListHeader {
+    margin-bottom: 2rem;
+    border-bottom: 0.1rem solid white;
+}
+
+/* FOOTER CONTAİNER */
+
+@media screen and (min-width: 700px) {
+    .ticketPageBodyPosition {
+        flex-direction: row;
+    }
+
+    .ticketSearch {
+        min-height: 35rem !important;
+        height: 100%;
+        min-width: 35rem !important;
+        width: 100%;
+    }
+
+    .descBox {
+        height: 12rem !important;
+        width: 12rem !important;
+    }
+
+    .descBox>svg {
+        font-size: 4rem !important;
+    }
+
+    .descBox>p {
+        font-size: 0.9rem !important;
+    }
+
+    .ticketBtnStyle>button {
+        height: 4rem;
+        width: 28rem;
+        font-size: 1.2rem;
+    }
+
+    .ticketPageBodyContent {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .ticketPageBodyContentInfoBox {
+        width: calc(50% - 2rem);
+        margin: 1rem;
+    }
+
+    .ticketPageFooterContainer {
+        flex-direction: row;
+    }
+
+    .ticketPageFooterInfoBox {
+        width: 25%;
+    }
+
+    .ticketSearch .ant-select {
+        width: 30rem;
+    }
+
+    .ticketSearch .ant-picker-range {
+        width: 32rem !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .ticketPageBodyPosition {
+        flex-direction: row;
+    }
+
+    .ticketSearch {
+        min-height: 35rem !important;
+        height: 100%;
+        min-width: 50rem !important;
+        width: 100%;
+    }
+
+    .descBox {
+        height: 12rem !important;
+        width: 12rem !important;
+    }
+
+    .descBox>svg {
+        font-size: 4rem !important;
+    }
+
+    .descBox>p {
+        font-size: 0.9rem !important;
+    }
+
+    .ticketBtnStyle>button {
+        height: 6rem;
+        width: 40rem;
+        font-size: 1.2rem;
+    }
+
+    .ticketPageBodyContent {
+        flex-direction: row;
+    }
+
+    .ticketPageBodyContentInfoBox {
+        width: 23%;
+    }
+
+    .ticketPageFooterContainer {
+        flex-direction: row;
+    }
+
+    .ticketPageFooterInfoBox {
+        width: 25%;
+    }
+
+    .ticketSearch .ant-select {
+        width: 40rem;
+    }
+
+    .ticketSearch .ant-picker-range {
+        width: 42rem !important;
+    }
+}

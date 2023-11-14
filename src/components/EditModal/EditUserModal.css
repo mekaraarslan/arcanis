@@ -1,0 +1,38 @@
+.editSaveButton {
+    background-color: #7465F2 !important;
+    color: white;
+}
+
+.editSaveButton:hover {
+    background-color: #161D30 !important;
+    color: white !important;
+}
+
+.editCancelButton {
+    background-color: #161D30 !important;
+    color: white !important;
+}
+
+.editCancelButton:hover {
+    border-color: #7465F2;
+    color: #7465F2 !important;
+}
+
+.ant-select-selection-placeholder {
+    color: white !important;
+}
+
+.editButtonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editDeleteButton {
+    background-color: red;
+}
+
+.editDeleteButton:hover {
+    color: white !important;
+    opacity: 0.5;
+}
