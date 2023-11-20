@@ -7,3 +7,5 @@ const APIManager = {
 };
 
 export default APIManager;
+
+// deneme
